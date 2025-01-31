@@ -53,12 +53,12 @@
   Exit from a process. If shell is the only process then logs out
 
 ```
-![screenshot](1.png)
-![screenshot](2.png)
-![screenshot](3.png)
-![screenshot](4.png)
-![screenshot](6.png)
-![screenshot](5.png)
+![screenshot](a1.png)
+![screenshot](a2.png)
+![screenshot](a3.png)
+![screenshot](a4.png)
+![screenshot](a5.png)
+![screenshot](a6.png)
 
 > ## DIRECTORY COMMANDS
 ```c
@@ -81,7 +81,7 @@ rmdir subdir
 Removes an empty sub-directory.
 
 ```c
-![screenshot](IMG-20250129-WA0028.png)
+![screenshot](a7.png)
 ```c
 
 > ## FILE COMMANDS
@@ -140,7 +140,7 @@ chmod 740 file
 sets all rights for user, read only for groups and no rights for others
 ```
 
-[screenshot](os1 (1).png)
+[screenshot](a8.png)
 
 > ## RESULT
 > Thus the study and execution of Unix commands has been completed successfully.
@@ -178,7 +178,7 @@ simulate_cp(argv[1], argv[2]);
 return EXIT_SUCCESS;
 }
 ```
-[screenshot](1.png)
+[screenshot](a9.png)
 
 > ## Simulation code for ls command
 
@@ -207,7 +207,7 @@ return 0;
 }
 ```
 
-[screenshot](1b-1.png)
+[screenshot](a10.png)
 
 > ## Simulate Grep command
 
@@ -238,4 +238,4 @@ return EXIT_SUCCESS;
 }
 ```
 
-[screenshot](a3.png)
+[screenshot](a11.png)
