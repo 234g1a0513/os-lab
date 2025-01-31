@@ -1,7 +1,7 @@
 # os-lab
 > ## Exp1: basics of unix commands
 
-> PROCEDURE: Login into the ubuntu terminal use Ctrl + Alt + t windows shortcut key or go to activity bar search for terminal and mouse click the terminal open
+>PROCEDURE: Login into the ubuntu terminal use Ctrl + Alt + t windows shortcut key or go to activity bar search for terminal and mouse click the terminal open.
 
 > ## Commands with Descriptions
 
@@ -51,7 +51,6 @@
   To display the commands used by the user since log on.
   exit
   Exit from a process. If shell is the only process then logs out
-
 ```
 ![screenshot](a1.png)
 ![screenshot](a2.png)
@@ -61,6 +60,7 @@
 ![screenshot](a6.png)
 
 > ## DIRECTORY COMMANDS
+
 ```c
 pwd
 Path of the present working directory
@@ -79,10 +79,9 @@ cd ..
 To move back to the parent directory
 rmdir subdir
 Removes an empty sub-directory.
+```c
 
-```c
 ![screenshot](a7.png)
-```c
 
 > ## FILE COMMANDS
 
@@ -140,12 +139,13 @@ chmod 740 file
 sets all rights for user, read only for groups and no rights for others
 ```
 
-[screenshot](a8.png)
+![screenshot](a8.png)
+
 
 > ## RESULT
-> Thus the study and execution of Unix commands has been completed successfully.
+Thus the study and execution of Unix commands has been completed successfully.
 
-Simulate UNIX commands like cp, ls, grep, etc
+> ## Simulate UNIX commands like cp, ls, grep, etc
 
 > ## Cp simulate command Source code
 
@@ -178,11 +178,12 @@ simulate_cp(argv[1], argv[2]);
 return EXIT_SUCCESS;
 }
 ```
-[screenshot](a9.png)
+
+![screenshot](a9.png)
 
 > ## Simulation code for ls command
 
-```c 
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
@@ -207,7 +208,7 @@ return 0;
 }
 ```
 
-[screenshot](a10.png)
+![screenshot](a10.png)
 
 > ## Simulate Grep command
 
@@ -238,4 +239,4 @@ return EXIT_SUCCESS;
 }
 ```
 
-[screenshot](a11.png)
+![screenshot](a11.png)
