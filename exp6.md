@@ -1,4 +1,4 @@
-###Simulate LJF (langest job First) and SRJF (Shortest Remaining Job First) CPU Scheduling Algorithms
+## Simulate LJF (langest job First) and SRJF (Shortest Remaining Job First) CPU Scheduling Algorithms
 ```c
 #include <stdio.h>
 
